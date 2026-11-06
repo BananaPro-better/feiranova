@@ -47,9 +47,9 @@ body.layout1 .boxpai {
 
 body.layout1 .box {
     position: fixed;
-    top: 60%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-70%, -50%);
     margin: 0;
     box-sizing: border-box;
     max-width: 90vw;
@@ -115,9 +115,9 @@ body.layout2 .boxpai {
 
 body.layout2 .box {
     position: fixed;
-    top: 60%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-70%, -50%);
     margin: 0;
     box-sizing: border-box;
     max-width: 90vw;
@@ -160,26 +160,3 @@ body.layout2 .h1f{
     color: transparent;
 }
 
-body.layout1,
-body.layout2 {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    height: auto;
-    min-height: 100vh;
-    min-height: 100dvh;
-    padding-bottom: 20px;
-}
-
-body.layout1 .boxpai,
-body.layout2 .boxpai {
-    flex: none;
-}
-
-body.layout1 .box,
-body.layout2 .box {
-    position: static;
-    transform: none;
-    margin: auto;
-    flex: none;
-}
