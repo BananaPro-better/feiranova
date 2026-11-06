@@ -53,7 +53,7 @@ body.layout1 .box {
     background-color: white;
     padding: 0 20px;
     height: 500px;
-    width:354px;
+    width:320px;
     margin: 12px;
     box-shadow: 5px 5px 0px greenyellow,
                 -5px -5px 0px red;
@@ -65,13 +65,13 @@ body.layout1 .minibox {
     border: 1px solid rgba(22, 22, 22, 0.473);
     margin: 20px 0 0;
     height: 40px;
-    width: 200px;
+    width: 150px;
     background-color: rgba(125, 250, 108, 0.589);
 }
 
 body.layout1 .jss {
     position: relative;
-    font-size: 2.5em;
+    font-size: 2.3em;
     margin-top: 30px;
     text-align: center;
 }
@@ -116,7 +116,7 @@ body.layout2 .box {
     background-color: grey;
     padding: 0 20px;
     height: 500px;
-    width: 354px;
+    width: 320px;
     margin:12px;
     box-shadow: -10px -10px 0px lightslategray,
                 15px 15px 15px red;
@@ -133,14 +133,14 @@ body.layout2 .minibox {
 }
 body.layout2 .jss {
     position: relative;
-    font-size: 2.5em;
+    font-size: 2.3em;
     margin-top: 30px;
     text-align: center;
 }
 body.layout2 .h11 {
     padding: 5px 7px;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.2em;
     margin-top: 5px;
     font-family: new rocker;
 }
