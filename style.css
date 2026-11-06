@@ -9,7 +9,7 @@ body.layout1 .pi {
     color: white;
 }
 body.layout1 .h111 {
-    font-size: 2em;
+    font-size: 1.7em;
     position: absolute;
     left: 0;
     right: 0;
@@ -94,7 +94,7 @@ body.layout2 .pi {
 }
 
 body.layout2 .h111 {
-    font-size: 2em;
+    font-size: 1.7em;
     position: absolute;
     margin-top: 20px;
     text-align: center;
