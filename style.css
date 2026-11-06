@@ -53,8 +53,8 @@ body.layout1 .box {
     background-color: white;
     padding: 0 20px;
     height: 500px;
-    width:320px;
-    margin: 12px;
+    width: 300px;
+    margin: 40px;
     box-shadow: 5px 5px 0px greenyellow,
                 -5px -5px 0px red;
 }
@@ -116,8 +116,8 @@ body.layout2 .box {
     background-color: grey;
     padding: 0 20px;
     height: 500px;
-    width: 320px;
-    margin:12px;
+    width: 300px;
+    margin:40px;
     box-shadow: -10px -10px 0px lightslategray,
                 15px 15px 15px red;
 }
@@ -128,7 +128,7 @@ body.layout2 .minibox {
     border: 1px solid rgba(22, 22, 22, 0.473);
     margin: 20px 0 0;
     height: 40px;
-    width: 170px;
+    width: 190px;
     background-color: red;
 }
 body.layout2 .jss {
