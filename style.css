@@ -9,7 +9,7 @@ body.layout1 .pi {
     color: white;
 }
 body.layout1 .h111 {
-    font-size: 1.7em;
+    font-size: 1.5em;
     position: absolute;
     left: 0;
     right: 0;
@@ -46,15 +46,21 @@ body.layout1 .boxpai {
 }
 
 body.layout1 .box {
-    margin-bottom: -20px;
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 90vw;
+    max-height: 90vh;
+    overflow: auto;
     border: 3px solid rgba(86, 186, 252, 0.959);
     border-radius: 20px;
-    position: absolute;
     background-color: white;
     padding: 0 20px;
     height: 400px;
     width: 300px;
-    margin: 40px;
     box-shadow: 5px 5px 0px greenyellow,
                 -5px -5px 0px red;
 }
@@ -94,7 +100,7 @@ body.layout2 .pi {
 }
 
 body.layout2 .h111 {
-    font-size: 1.7em;
+    font-size: 1.5em;
     position: absolute;
     margin-top: 20px;
     text-align: center;
@@ -109,7 +115,7 @@ body.layout2 .boxpai {
 
 body.layout2 .box {
     position: fixed;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
