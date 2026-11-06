@@ -41,7 +41,7 @@ body.layout1 .boxpai {
     place-items: center;
     height: 100vh;         
     position: relative;
-    height: 250px;
+    height: 220px;
     background-color: transparent;
 }
 
@@ -110,7 +110,7 @@ body.layout2 .h111 {
 body.layout2 .boxpai {
     display: flex;
     position: relative;
-    height: 250px;
+    height: 220px;
 }
 
 body.layout2 .box {
