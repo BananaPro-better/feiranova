@@ -41,13 +41,13 @@ body.layout1 .boxpai {
     place-items: center;
     height: 100vh;         
     position: relative;
-    height: 220px;
+    height: 250px;
     background-color: transparent;
 }
 
 body.layout1 .box {
     position: fixed;
-    top: 70%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
@@ -110,12 +110,12 @@ body.layout2 .h111 {
 body.layout2 .boxpai {
     display: flex;
     position: relative;
-    height: 220px;
+    height: 250px;
 }
 
 body.layout2 .box {
     position: fixed;
-    top: 70%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
