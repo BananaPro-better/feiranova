@@ -47,9 +47,9 @@ body.layout1 .boxpai {
 
 body.layout1 .box {
     position: fixed;
-    top: 50%;
+    top: max(50%, 410px);
     left: 50%;
-    transform: translate(-70%, -50%);
+    transform: translate(-50%, -50%);
     margin: 0;
     box-sizing: border-box;
     max-width: 90vw;
@@ -115,9 +115,9 @@ body.layout2 .boxpai {
 
 body.layout2 .box {
     position: fixed;
-    top: 50%;
+    top:410px;
     left: 50%;
-    transform: translate(-70%, -50%);
+    transform: translate(-50%, -50%);
     margin: 0;
     box-sizing: border-box;
     max-width: 90vw;
