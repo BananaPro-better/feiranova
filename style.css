@@ -1,15 +1,15 @@
+/* ===== LAYOUT 1: FAUVISMO ===== */
 body.layout1 * {
     margin: 0;
 }
-body.layout1 .pi {
-    position: absolute;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 180px;
-    color: white;
+body.layout1 {
+    min-height: 100vh;
+    background-image: url(images-mobile.png);
+    background-size: cover;
+    backdrop-filter: blur(6px);
 }
 body.layout1 .h111 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     position: absolute;
     left: 0;
     right: 0;
@@ -17,54 +17,37 @@ body.layout1 .h111 {
     text-align: center;
     color: white;
 }
-body.layout1 .h11 {
-    color: transparent;
-    margin-top: -10px;
-    font-size: 8px;
-}
-
-body.layout1 .h1f {
-    text-align: center;
-    font-size: 1.3em;
-    margin-top: 10px;
-    font-family: 'averia gruesa libre', sans-serif;
-}
-body.layout1 {
-    height: 100vh;
-    background-image: url(images-mobile.png);
-    background-size: cover;
-    backdrop-filter: blur(6px);
-}
-
+/* boxpai agora acompanha o conteúdo (sem altura fixa) */
 body.layout1 .boxpai {
-    display: grid;   
-    place-items: center;
-    height: 100vh;         
+    display: block;
     position: relative;
-    height: 250px;
+    height: auto;
+    padding: 120px 20px 0;
     background-color: transparent;
 }
-
+body.layout1 .pi {
+    margin-top: 40px;
+    position: static;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+/* box no fluxo normal: fica logo abaixo do pi */
 body.layout1 .box {
-    position: fixed;
-    top: max(50%, 410px);
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
+    position: relative;
+    margin: 20px auto 30px;
     box-sizing: border-box;
     max-width: 90vw;
-    max-height: 90vh;
     overflow: auto;
     border: 3px solid rgba(86, 186, 252, 0.959);
     border-radius: 20px;
     background-color: white;
     padding: 0 20px;
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 330px;
     box-shadow: 5px 5px 0px greenyellow,
                 -5px -5px 0px red;
 }
-
 body.layout1 .minibox {
     position: relative;
     border-radius: 70px;
@@ -74,66 +57,71 @@ body.layout1 .minibox {
     width: 150px;
     background-color: rgba(125, 250, 108, 0.589);
 }
-
+body.layout1 .h11 {
+    color: transparent;
+    margin-top: -10px;
+    font-size: 8px;
+}
+body.layout1 .h1f {
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 10px;
+    font-family: 'averia gruesa libre', sans-serif;
+}
 body.layout1 .jss {
     position: relative;
     font-size: 1.7em;
     margin-top: 30px;
     text-align: center;
 }
+
+/* ===== LAYOUT 2: EXPRESSIONISMO ===== */
 body.layout2 * {
-    margin: 0;       
+    margin: 0;
 }
-body.layout2{
+body.layout2 {
     min-height: 100vh;
     background-image: url(images-mobileex.png);
     background-size: cover;
     backdrop-filter: blur(6px);
 }
-
-body.layout2 .pi {
-    position: absolute;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 180px;
-    color: white;
-}
-
 body.layout2 .h111 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     position: absolute;
+    left: 0;
+    right: 0;
     margin-top: 20px;
     text-align: center;
     color: white;
 }
-
 body.layout2 .boxpai {
-    display: flex;
+    display: block;
     position: relative;
-    height: 250px;
+    height: auto;
+    padding: 120px 20px 0;
 }
-
+body.layout2 .pi {
+    margin-top: 40px;
+    position: static;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
 body.layout2 .box {
-    position: fixed;
-    top:410px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
+    position: relative;
+    margin: 40px auto 30px;
     box-sizing: border-box;
     max-width: 90vw;
-    max-height: 90vh;
     overflow: auto;
-    justify-content: center;
     border: 3px solid black;
     border-radius: 20px;
     background-color: grey;
     padding: 0 20px;
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 330px;
     box-shadow: -10px -10px 0px lightslategray,
                 15px 15px 15px red;
 }
-
 body.layout2 .minibox {
     position: relative;
     border-radius: 70px;
@@ -156,7 +144,6 @@ body.layout2 .h11 {
     margin-top: 5px;
     font-family: new rocker;
 }
-body.layout2 .h1f{
+body.layout2 .h1f {
     color: transparent;
 }
-
